@@ -9,7 +9,7 @@ body,html{
 	font-family:"宋体";
 }
 .body{
-	background:url(../img/bg2.jpg) center center no-repeat fixed;
+	background:url(../img/bg-2.jpg) center center no-repeat fixed;
 	background-size:100% 100%;
 	overflow:hidden;
 }
@@ -28,7 +28,7 @@ body,html{
 	height:100%;
 	position:absolute;
 	left:0;
-	background:url(../img/bg1.jpg) no-repeat;
+	background:url(../img/bg-1.jpg) no-repeat;
 	background-size:200% 100%;
 	transition:2s all ease;
 	transform-origin:left left;
@@ -38,7 +38,7 @@ body,html{
 	right:0;
 	width:50%;
 	height:100%;
-	background:url(../img/bg1.jpg) no-repeat;
+	background:url(../img/bg-1.jpg) no-repeat;
 	background-position:right;
 	background-size:200% 100%;
 	transition:2s all ease;
@@ -50,7 +50,7 @@ body,html{
 	left:60%;
 	top:60%;
 	opacity:0;
-    background:url(../img/bg6.png) no-repeat center center
+    background:url(../img/bg-6.png) no-repeat center center
 }
 .Loading .Load{
  	font-size:17px;
@@ -258,7 +258,7 @@ body,html{
 }
 .A_moment_relief{
 	height:800px;
-	background:url(../img/bg5.jpg) no-repeat fixed;
+	background:url(../img/bg-5.jpg) no-repeat fixed;
 	background-size:100% 100%;
 	display:none;
 }
@@ -384,7 +384,7 @@ body,html{
 .About_me{
 	height:800px;
 	display:none;
-	background:url(../img/bg4.jpg) no-repeat fixed;
+	background:url(../img/bg-4.jpg) no-repeat fixed;
 	background-size:100% 100%;
 }
 .About_me p{
@@ -501,7 +501,7 @@ body,html{
 .The_end{
 	height:800px;
 	display:none;
-	background:url(../img/bg3.jpg) no-repeat fixed;
+	background:url(../img/bg-3.jpg) no-repeat fixed;
 	background-size:100% 100%;
 }
 .The_end p{
