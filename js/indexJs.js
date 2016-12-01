@@ -116,8 +116,8 @@
 		oLoad.innerHTML='0%';
 		for(var i=1;i<6;i++){
 			var oI=new Image();
-				//https://ITjinhang/itjinhang.github.io/img/bg-1.jpg
-			oI.src= 'https://ITjinhang/itjinhang.github.io/img/bg-'+i+'.jpg';
+				//https://ITjinhang/itjinhang.github.io/img/bg1.jpg
+			oI.src= 'https://ITjinhang/itjinhang.github.io/img/bg'+i+'.jpg';
 			oI.onload=function(){
 				oLoad_num++;
 				oLoad.innerHTML=(oLoad_num*100/5)+'%';
