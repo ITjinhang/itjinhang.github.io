@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document   拼图*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background:#000;
+}
+div{
+	margin:20px auto;
+	width: 800px;
+	height: 400px;
+	border:10px solid #fff;
+	position: relative;
+}
+span{
+	position: absolute;
+	border:1px dashed #ccc;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+}
+input{
+	height: 50px;
+	width: 100px;
+	margin-left:-100px;
+}
+.start{
+	position:absolute;
+	left:40%;
+}
+.reset{
+	position:absolute;
+	left:60%;
+}
+

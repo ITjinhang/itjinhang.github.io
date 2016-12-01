@@ -1,0 +1,382 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+p{
+	color:#999;
+	font-size: 0.6rem;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	font-size: 0.65rem;
+}
+img{
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+}
+i,b,strong,em{
+	font-style: normal;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+li{
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 2.5rem;
+	position: relative;
+	overflow: hidden;
+	background: -linear-gradient(#ffffff,#ebebeb);
+}
+h1{
+	width: 3.7rem;
+	height: 1rem;
+	margin: 0.75rem auto 0;
+	background: url(../img/logo.png) no-repeat;
+	background-size: 100% 100%;
+}
+header a{
+	height: 1rem;
+	display: block;
+	text-indent: -9999em;
+}
+
+.return{
+	width: 3.2rem;
+	height: 1.55rem;
+	position: absolute;
+	background: url(../img/return.png) no-repeat;
+	left: 0.5rem;
+	top: 0.55rem;
+	background-size: 100% 100%;
+}
+.over{
+	width: 100%;
+	height: 6.7rem;
+	overflow: hidden;
+}
+.img_list{
+	position: relative;
+	
+}
+.bg_list{
+	width: 700%;
+	height: 6.7rem;
+	transform:translate3d(-16rem,0,0);
+}
+.bg_list li{
+	height: 6.7rem;
+	width: 16rem;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.bg_list .one1{
+	background-image: url(../img/bg0.png);
+}
+.bg_list .one2{
+	background-image:url(../img/jay1.jpg);
+}
+.bg_list .one3{
+	background-image:url(../img/jay2.jpg);
+}
+.bg_list .one4{
+	background-image:url(../img/jay3.jpg);
+}
+.bg_list .one5{
+	background-image:url(../img/jay4.jpg);
+}
+.point_list{
+	position: absolute;
+	left: 50%;
+	margin-left: -2.5rem;
+	overflow: hidden;
+	bottom: -1rem;
+}
+.point_list li{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	float: left;
+	margin: 0 0.25rem;
+	background: #a9a9a9;
+}
+.point_list li.active{
+	background: #ff4300;
+}
+.main{
+	padding-top: 1.8rem;
+	width: 15rem;
+	margin: 0 auto;
+}
+.icon_list li{
+	float: left;
+	margin: 0 0.875rem;
+	width: 2rem;
+	height: 4rem;
+}
+.icon_list li div{
+	width: 2rem;
+	height: 2rem;
+	background-size:100% 100%;
+}
+.icon_list li p{
+	text-align: center;
+	line-height: 1.45rem;
+}
+.icon1{
+	background: url(../img/icon.png) no-repeat;
+}
+.icon2{
+	background: url(../img/icon2.png) no-repeat;
+}
+.icon3{
+	background: url(../img/icon3.png) no-repeat;
+}
+.icon4{
+	background: url(../img/icon4.png) no-repeat;
+}
+.icon5{
+	background: url(../img/icon5.png) no-repeat;
+}
+.icon6{
+	background: url(../img/icon6.png) no-repeat;
+}
+.icon7{
+	background: url(../img/icon7.png) no-repeat;
+}
+.icon8{
+	background: url(../img/icon8.png) no-repeat;
+}
+.hot{
+	position: relative;
+}
+.hot i{
+	position: absolute;
+	left: -0.125rem;
+	top: 50%;
+	margin-top: -0.12rem;
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 50% ;
+	background: #d51938;
+}
+.rank{
+	font-size: 0.7rem;
+	color: #333;
+	height: 1.3rem;
+	line-height: 0.75rem;
+	padding-top: 0.6rem;
+	overflow: hidden;
+	width: 100%;
+	border-bottom: 0.1rem solid #dcdcdc;
+	margin-bottom: 0.75rem;
+}
+.rank h3{
+	float: left;
+	height: 0.75rem;
+	font-size: 0.7rem;
+	padding-left: 0.5rem;
+	border-left: 0.1rem solid #d51938;
+}
+.rank span{
+	float: right;
+	height: 0.75rem;
+	margin-right: 0.7rem;
+}
+.rank_list a{
+	display: block;
+	overflow:hidden;
+	background: #f4f4f4;
+	height: 3rem;
+	position: relative;
+	margin-bottom: 0.5rem;
+}
+.rank_list span{
+	width: 1.5rem;
+	height: 100%;
+	text-align: center;
+	line-height: 3rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #fff;
+}
+span.one1{
+	background: #e00202;
+}
+span.one2{
+	background: #ff4800;
+}
+span.one3{
+	background: #ff7300;
+}
+span.one4{
+	background: #ff9d00;
+}
+span.one5{
+	background: #ffa800;
+}
+span.one6{
+	background: #ffb400;
+}
+span.one7{
+	background: #ffba00;
+}
+span.one8{
+	background: #fcd000;
+}
+span.one9{
+	background: #ffd719;
+}
+span.one10{
+	background: #ffe152;
+}
+.rank_img{
+	height: 100%;
+	width: 4.5rem;
+}
+.price{
+	height: 100%;
+	padding:0.6rem 0 0 0.5rem
+}
+.price p{
+	line-height:0.9rem;
+}
+.price i{
+	color: #c7223d;
+}
+p.f_price{
+	font-size: 0.8rem;
+	color: #d51938;
+	font-weight: bold;
+	padding:1.05rem 1rem 0 0;
+}
+.main b{
+	position: absolute;
+	width: 0.325rem;
+	height: 0.55rem;
+	right: 0.5rem;
+	top: 50%;
+	margin-top: -0.275rem;
+	background: url(../img/right.png) no-repeat;
+	background-size: 100% 100%;
+}
+.rank_list em{
+	text-decoration: line-through;
+}
+.mid{
+	position: relative;
+	margin: 0.5rem 0;
+}
+.mid a{
+	display: block;
+	color: #666;
+	height: 2rem;
+	text-align: center;
+	line-height: 2rem;
+	background: #f5f5f5;
+}
+.life{
+	height: 8.8rem;
+	overflow: hidden;
+}
+.life .left{
+	height: 100%;
+	width: 3.75rem;
+	background-image: url(../img/life0.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.life .left2{
+	background-image: url(../img/life1.png);
+}
+.life .left3{
+	background-image: url(../img/life2.png);
+}
+.life .right{
+	width: calc(11.25rem - 1px);
+	height: calc(100% - 1px);
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+}
+.life .right a{
+	width: 3.75rem;
+	height: 2.2rem;
+	float: left;
+	line-height: 2.2rem;
+	text-align: center;
+	box-sizing: border-box;
+	color: #999;
+	border-right:1px solid #eee;
+	border-bottom:1px solid #eee;
+}
+.life .right a:nth-child(3n){
+	width: calc(3.75rem - 1px);
+}
+.life a.hot{
+	color: #d51942;
+}
+.banner{
+	height: 4rem;
+	display: -webkit-box;
+	margin: 1rem 0 0.5rem 0;
+}
+.banner a{
+	-webkit-box-flex:1;
+	display: block;
+	height: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.apple{
+	background-image: url(../img/apple.png);
+}
+.anzhuo{
+	background-image: url(../img/anzhuo.png);
+}
+.words{
+	background-image: url(../img/words.png);
+}
+.login_box{
+	height: 2.2rem;
+	overflow: hidden;
+	background: #f8f8f8;
+}
+.login_box a{
+	height: 2.2rem;
+	width: 2.7rem;
+	line-height: 2.2rem;
+	text-align: center;
+	position: relative;
+}
+.login_box a.fr{
+	margin-right: 0.7rem;
+}
+.login_box i{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -0.1125rem;
+	width: 0.425rem;
+	height: 0.225rem;
+	background: url(../img/top.png) no-repeat;
+	background-size: 100% 100%;
+}
+footer{
+	padding-top: 0.5rem;
+	background: #eee;
+}
+footer p{
+	text-align: center;
+	line-height: 1.5rem;	
+}
+p.down{
+	font-size: 0.5rem;
+}
